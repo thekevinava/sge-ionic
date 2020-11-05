@@ -1,0 +1,12 @@
+[
+    {
+        "icon": "skull-outline",
+        "name": "Action Sheet",
+        "redirectTo": "/action-sheet"
+    },
+    {
+        "icon": "logo-discord",
+        "name": "Alert",
+        "redirectTo": "/alert"
+    }
+]
