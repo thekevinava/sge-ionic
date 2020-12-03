@@ -1,5 +1,9 @@
-<app-header titulo="alert"></app-header>
+<app-header [titulo]="titulo || 'Alert'"></app-header>
+<!-- [Titulo] recoge la variable que el alert.page.ts 
+    si no tiene valor le decimos con || que coja 'Alert' 
+-->
 
 <ion-content>
-
+    <ion-button color="primary" expand="full" (click)="mostrarAlert()">Mostrar Alert</ion-button>
+    <ion-button color="danger" expand="full" (click)="mostrarInput()">Mostrar Input</ion-button>
 </ion-content>
