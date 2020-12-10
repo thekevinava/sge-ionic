@@ -1,0 +1,26 @@
+[
+    {
+        "author": "Pepe García",
+        "title": "Nace una estrella",
+        "image": "assets/images/ejercicio1/proyecto1.jpg",
+        "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta incidunt porro maxime dolore, dolorum repellendus quae libero debitis voluptas sed ut quia tempora, eius ipsa quam aliquam voluptate accusantium rerum."
+    },
+    {
+        "author": "Johnny Silverhand",
+        "title": "El amanecer del mundo cibernético",
+        "image": "assets/images/ejercicio1/proyecto2.jpg",
+        "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta incidunt porro maxime dolore, dolorum repellendus quae libero debitis voluptas sed ut quia tempora, eius ipsa quam aliquam voluptate accusantium rerum."
+    },
+    {
+        "author": "Dawn Johnson",
+        "title": "Atardecer en Los Santos",
+        "image": "assets/images/ejercicio1/proyecto3.jpg",
+        "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta incidunt porro maxime dolore, dolorum repellendus quae libero debitis voluptas sed ut quia tempora, eius ipsa quam aliquam voluptate accusantium rerum."
+    },
+    {
+        "author": "Cloud Strife",
+        "title": "Anochece en Nibelheim",
+        "image": "assets/images/ejercicio1/proyecto4.jpg",
+        "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta incidunt porro maxime dolore, dolorum repellendus quae libero debitis voluptas sed ut quia tempora, eius ipsa quam aliquam voluptate accusantium rerum."
+    }
+]

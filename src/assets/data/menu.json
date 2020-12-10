@@ -13,5 +13,15 @@
         "icon": "accessibility-outline",
         "name": "Avatar",
         "redirectTo": "/avatar"
+    },
+    {
+        "icon": "card",
+        "name": "Cards",
+        "redirectTo": "/card"
+    },
+    {
+        "icon": "beer-outline",
+        "name": "Ejercicio",
+        "redirectTo": "/ejercicio"
     }
 ]
