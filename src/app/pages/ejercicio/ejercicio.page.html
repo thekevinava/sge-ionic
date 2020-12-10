@@ -1,7 +1,7 @@
 <ion-header class="ion-no-border">
   <ion-toolbar>
     <ion-buttons slot="start">
-      <ion-back-button defaultHref="/"></ion-back-button>
+      <ion-back-button color="danger" defaultHref="/"></ion-back-button>
     </ion-buttons>
     <ion-buttons class="ion-justify-content-center">
       <ion-avatar>
@@ -9,23 +9,27 @@
       </ion-avatar>
     </ion-buttons>
     <ion-buttons slot="end">
-      <ion-menu-button menu="primerMenu" color="success"></ion-menu-button>
+      <ion-menu-button menu="primerMenu" color="danger"></ion-menu-button>
     </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
   <ion-list>
+    <!-- Gracias a la interfaz creada, puedo recorrer el Json obteniendo los diferentes datos de cada elemento Object -->
     <ion-item *ngFor="let c of componentes | async">
       <ion-card>
         <ion-img [src]="c.image"></ion-img>
         <ion-card-header>
-          <ion-card-subtitle>{{ c.author}}</ion-card-subtitle>
-          <ion-card-title>{{ c.title }}</ion-card-title>
+          <ion-card-subtitle color="secondary">{{ c.author}}</ion-card-subtitle>
+          <ion-card-title color="secondary">{{ c.title }}</ion-card-title>
         </ion-card-header>
         <ion-card-content>{{ c.content }}<br>
-          <ion-button (click)="mostrarActionSheet(c)"><ion-icon name="share-social-outline"></ion-icon></ion-button>
-          <ion-button (click)="mostrarAlert(c)"><ion-icon name="heart-outline"></ion-icon></ion-button>
+          <ion-buttons>
+            <!--Cuando clicas el boton, llama a cada una de las funciones enviando como objeto el elemento mostrado del Array-->
+            <ion-button color="primary" (click)="mostrarActionSheet(c)"><ion-icon name="share-social"></ion-icon></ion-button> 
+            <ion-button color="danger" (click)="mostrarAlert(c)"><ion-icon name="heart"></ion-icon></ion-button>
+          </ion-buttons>
         </ion-card-content>
       </ion-card>
     </ion-item>

@@ -13,7 +13,7 @@ export class DataService {
     return this.http.get<Componente[]>('/assets/data/menu.json')
   }
 
-  getEjer1Ops() {
+  getEjer1Ops() { // Recibo los datos del Json
     return this.http.get<ComponenteEjer1[]>('/assets/data/ejercicio1.json')
   }
 

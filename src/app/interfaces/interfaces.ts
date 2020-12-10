@@ -4,7 +4,7 @@ export interface Componente {
     redirectTo: string;
 }
 
-export interface ComponenteEjer1 {
+export interface ComponenteEjer1 { // Creo el formato para el Ejercicio 1
     author: string;
     title: string;
     image: string;
