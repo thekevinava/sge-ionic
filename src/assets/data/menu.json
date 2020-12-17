@@ -23,5 +23,15 @@
         "icon": "beer-outline",
         "name": "Ejercicio",
         "redirectTo": "/ejercicio"
+    },
+    {
+        "icon": "car",
+        "name": "Fab",
+        "redirectTo": "/fab"
+    },
+    {
+        "icon": "hammer",
+        "name": "Inputs & Forms",
+        "redirectTo": "/input"
     }
 ]
