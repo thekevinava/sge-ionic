@@ -17,4 +17,8 @@ export class DataService {
     return this.http.get<ComponenteEjer1[]>('/assets/data/ejercicio1.json')
   }
 
+  getUsers() {
+    return this.http.get('https://jsonplaceholder.typicode.com/users');
+  }
+
 }

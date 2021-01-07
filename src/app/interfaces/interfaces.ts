@@ -10,3 +10,8 @@ export interface ComponenteEjer1 { // Creo el formato para el Ejercicio 1
     image: string;
     content: string;
 }
+
+export interface usuario {
+    name: string;
+    email: string;
+}
